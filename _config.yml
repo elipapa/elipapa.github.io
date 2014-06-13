@@ -9,7 +9,7 @@ permalink:        pretty
 title:            Eliseo Papa
 tagline:          'Thoughts, ideas and projects. Here so they can be safely ignored.'
 description:      'Biomedical engineer, computational biologist, doctor'
-baseurl:              "http://eliseopapa.org"
+baseurl:           "http://elipapa.github.io"
 
 author:
   name:           'Eliseo Papa'
