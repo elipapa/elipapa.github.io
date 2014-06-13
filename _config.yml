@@ -9,14 +9,13 @@ permalink:        pretty
 title:            Eliseo Papa
 tagline:          'Thoughts, ideas and projects. Here so they can be safely ignored.'
 description:      'Biomedical engineer, computational biologist, doctor'
-url:              http://eliseopapa.org
+baseurl:              "http://eliseopapa.org"
 
 author:
   name:           'Eliseo Papa'
-  baseurl:        'https://eliseopapa.org'
+  url:        'https://eliseopapa.org'
 
 paginate:         5
 
 # Custom vars
-
-  repo:           https://github.com/elipapa/elipapa.github.io
+repo:           "https://github.com/elipapa/elipapa.github.io"
