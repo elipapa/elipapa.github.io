@@ -1,0 +1,11 @@
+.elipapa-calder-circular{
+ width: 150px;
+ height: 150px;
+ background-image: url('/assets/elipapa-calder-logo-circ2.png');
+ background-size: 160px 160px;
+ display: inline-block;
+ background-position: center;
+ border-radius: 50%;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+}
