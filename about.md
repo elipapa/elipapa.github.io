@@ -15,6 +15,12 @@ I have trained as a physician at [Imperial College London medical school][] and 
 
 Other places on the web where you can find me: [twitter][], [about.me][], [linkedIn][]
 
+---
+
+This website uses [jekyll](http://jekyllrb.com/), [poole](http://getpoole.com/) and the [hyde](http://andhyde.com/) theme.
+
+Hosted on [Github Pages](https://pages.github.com/). Domain registered with [iwantmyname](https://iwantmyname.com/)
+
 
 [Mendeley]:       http://www.mendeley.com/profiles/eliseo-papa/
 [Google scholar]: http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ
