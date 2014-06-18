@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -9,13 +9,14 @@ permalink:        pretty
 title:            Eliseo Papa
 tagline:          'Thoughts, ideas and projects. Here so they can be safely ignored.'
 description:      'Biomedical engineer, computational biologist, doctor'
-baseurl:           "http://elipapa.github.io"
+baseurl:          "http://elipapa.github.io"
+production_url:   'http://www.eliseopapa.org'
 
 author:
   name:           'Eliseo Papa'
-  url:        'https://eliseopapa.org'
+  url:            'http://www.eliseopapa.org'
 
 paginate:         5
 
 # Custom vars
-repo:           "https://github.com/elipapa/elipapa.github.io"
+repo:             "http://github.com/elipapa/elipapa.github.io"

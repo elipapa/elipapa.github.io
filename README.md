@@ -13,4 +13,8 @@ To update (as explained in the [github docs](https://help.github.com/articles/us
 
 To add a draft post: just drop a markdown file in `_drafts`
 
+To preview locally: `jekyll serve --watch --baseurl `
+
+To preview locally, with drafts: `jekyll serve --watch --drafts --baseurl `
+
 To publish: commit locally and `git push`
