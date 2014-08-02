@@ -1,4 +1,5 @@
 ---
+title: About
 layout: page
 ---
 I am Eli, a biomedical engineer, computational biologist and doctor.
