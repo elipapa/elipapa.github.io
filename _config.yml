@@ -17,6 +17,7 @@ author:
   url:            'http://www.eliseopapa.org'
 
 paginate:         5
+# paginate_path: "blog/page:num"
 
 # Custom vars
 repo:             "http://github.com/elipapa/elipapa.github.io"
