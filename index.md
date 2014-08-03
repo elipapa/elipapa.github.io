@@ -1,7 +1,8 @@
 ---
-title: About
-layout: page
+layout: default
+title: Home
 ---
+
 I am Eli, a biomedical engineer, computational biologist and doctor.
 
 My [latest research][hsttopic] relates to the interface between the human immune system and the [microbiome][almlab]. You can find a list of my publications on [Google scholar][].
@@ -32,3 +33,4 @@ Hosted on [Github Pages](https://pages.github.com/). Domain by [iwantmyname](htt
 [linkedIn]: http://uk.linkedin.com/in/eliseopapa
 [MIT]: http://web.mit.edu
 [Kippt]: https://kippt.com/elipapa
+
