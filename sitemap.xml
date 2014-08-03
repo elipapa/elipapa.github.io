@@ -9,13 +9,13 @@ title : Sitemap
     {% if page.url != '/sitemap.xml' %}
 
       <url>
-        <loc>{{site.production_url}}{{ page.url }}</loc>
+        <loc>{{site.baseurl}}{{ page.url }}</loc>
       </url>
     {% endif %}
   {% endfor %}
 {% for post in site.posts %}
     <url>
-      <loc>{{site.production_url}}{{ post.url }}/</loc>
+      <loc>{{site.baseurl}}{{ post.url }}/</loc>
     </url>
   {% endfor %}
 </urlset>

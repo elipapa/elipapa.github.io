@@ -1,7 +1,8 @@
 ---
-title: About
-layout: page
+layout: default
+title: Home
 ---
+
 I am Eli, a biomedical engineer, computational biologist and doctor.
 
 My [latest research][hsttopic] relates to the interface between the human immune system and the [microbiome][almlab]. You can find a list of my publications on [Google scholar][].
@@ -12,11 +13,14 @@ I have trained as a physician at [Imperial College London medical school][] and 
 
 Other places on the web where you can find me: [@elipapa][twitter], [about.me][], [linkedIn][]
 
----
 
-This website uses [jekyll](http://jekyllrb.com/), [poole](http://getpoole.com/) and the [hyde](http://andhyde.com/) theme. Logo courtesy of [KAT](http://katlab.github.io)
+<div class="footer">
+	<hr>
+         This website uses <a href="http://jekyllrb.com/">jekyll</a>, <a href="http://getpoole.com">poole</a> and the <a href="http://andhyde.come">hyde</a> theme. Logo courtesy of <a href="http://katlab.github.com">kat</a>.
+         Hosted on <a href="https://pages.github.com/">Github Pages</a>. Domain by <a href="https://iwantmyname.com">iwantmyname</a>.
+ </div>
 
-Hosted on [Github Pages](https://pages.github.com/). Domain by [iwantmyname](https://iwantmyname.com/)
+
 
 
 [Mendeley]:       http://www.mendeley.com/profiles/eliseo-papa/
@@ -32,3 +36,4 @@ Hosted on [Github Pages](https://pages.github.com/). Domain by [iwantmyname](htt
 [linkedIn]: http://uk.linkedin.com/in/eliseopapa
 [MIT]: http://web.mit.edu
 [Kippt]: https://kippt.com/elipapa
+
