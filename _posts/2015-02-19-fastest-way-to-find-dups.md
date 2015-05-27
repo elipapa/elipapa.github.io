@@ -3,16 +3,15 @@ layout: post
 title: "What is the fastest way to find duplicate pictures?"
 date: 2015-02-19
 comments: true
-categories: python
 ---
 I needed to clean up duplicates photos from my personal library. And because I could not choose which duplicate finder to try, I have decided to test them all. Amongst the free tools that were correct in identifying all duplicates in my test, [dupd](https://github.com/jvirkki/dupd) was the fastest. Other [python](https://www.python.org/) and [perl](http://www.perl.org/) based solution did also very well, often better than their C/C++ colleagues.
 
 ## Why a duplicate file finder? 
-As a parent of two young kids, the folder which contains pictures from my camera and mobile phones has mushroomed in size. I do try to save everything in one place and have backups, but it is difficult to keep track of it. Too afraid of losing family memories, often I end up downloading pictures from my phone multiple times, "just in case". Now that I have reached the limits of my hard drive space, I figured the best thing to do was to remove some duplicate pictures.
+As a parent, my picture collection has mushroomed in size. I do try to save everything in one place and have backups, but it is difficult to keep track of it. Too afraid of losing family memories, often I end up downloading pictures from my phone multiple times, "just in case". Now that I have reached the limits of my hard drive space, I figured the best thing to do was to remove some duplicate pictures.
 
-One could try with iPhoto or some other graphical interface, but the approach is simply too slow for a large library (over 100GB). So I searched for a command line too.
+One could try with iPhoto or some other graphical interface, but the approach is simply too slow for a large library (over 100GB). The obvious choice was to search for a command line tool.
 
-I realized that **there are far too many tools** which have been written for this task. And no easy way to find which one is best. So I decided to compare the speed of most of them.
+I quickly realized that **there are far too many tools** which have been written for this task. And no easy way to find which one is best. So I decided to compare the speed of most of them.
 
 ## A speed comparison
 Wikipedia has a pretty complete [list of duplicate file finders](http://en.wikipedia.org/wiki/List_of_duplicate_file_finders). From there I downloaded and installed all free/open source command line tools.
@@ -33,7 +32,8 @@ Since I keep my pictures in a separate NAS storage, it is also useful how much e
 
 ## Conclusion
 
-[Dupd](https://github.com/jvirkki/dupd) was the clear speed winner, also with an acceptable memory footprint. Liten and fastdupes come close second and may be slightly more portable as they do not require to be compiled. I have noticed that most of the C/C++ tool tend to be a little fragile out of UNIX.
+[Dupd](https://github.com/jvirkki/dupd) was the clear speed winner, also with an acceptable memory footprint. [liten](http://code.google.com/p/liten/) and [fastdupes](http://ssokolow.com/scripts/#fastdupes.py) come close second and may be slightly more portable as they do not require to be compiled. Compiling of the C/C++ tools tend to be a little fragile out of the main UNIX distros, which is a problem when working on a NAS. **I ended up using [fastdupes](http://ssokolow.com/scripts/#fastdupes.py)**.
+
 It is interesting to see how the (arguably) best known solution [fdupes](https://code.google.com/p/fdupes/) was also the slowest. Though it remains one of the only tools which can do byte-by-byte comparison. Both the fastest and second fastest tool rely on [SQLite databases](http://www.sqlite.org/) and allow you to explore duplicates interactively, after they run. 
 
 Please let me know if I forgot any other tool which should have been in this list. The commands included in the analysis were:
