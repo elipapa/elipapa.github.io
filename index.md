@@ -25,7 +25,7 @@ You can also find me at [about.me][] and [LinkedIn][] -->
 
 <div class="footer">
 	<hr>
-         This website uses <a href="http://jekyllrb.com/">jekyll</a>, <a href="http://getpoole.com">poole</a> and the <a href="http://andhyde.come">hyde</a> theme. Logo courtesy of <a href="http://katlab.github.com">kat</a>.
+         This website uses <a href="http://jekyllrb.com/">jekyll</a>, <a href="http://getpoole.com">poole</a> and the <a href="http://hyde.getpoole.com/">hyde</a> theme. Logo courtesy of <a href="http://katlab.github.com">kat</a>.
          Hosted on <a href="https://pages.github.com/">Github Pages</a>. Domain by <a href="https://iwantmyname.com">iwantmyname</a>.
  </div>
 
