@@ -15,7 +15,7 @@ I have trained as a physician at [Imperial College London medical school][] and 
 
 ##Software
 
-- [**SLiMEBook**]() - the analysis of my [IBD paper] ported to an Ipython notebook
+- [**SLiMEBook**](http://nbviewer.ipython.org/github/elipapa/SLiMEbook/blob/master/SLiMEbook.ipynb) - the original analysis of my [IBD paper](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0039242), involving machine learning applied to 16S microbiome data, ported to an Ipython notebook
 - [**markdown-cv** ](https://elipapa.github.io/markdown-cv/)- build a beautiful cv in plain text using HTML/Markdown/CSS
 - [**you are what you eat**](https://elipapa.github.io/youarewhatyoueat/) - an interactive visualizations of food diary data using D3/crossfilter/dc.js
 - [**karmen**](https://github.com/elipapa/karmen) - a quick and dirty command line browser for the [LanguaL thesaurus](http://www.langual.org/langual_Thesaurus.asp)
