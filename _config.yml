@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+permalink:        /blog/:categories/:title.html
 
 # Setup
 title:            Eliseo Papa
@@ -15,8 +15,8 @@ author:
   name:           'Eliseo Papa'
   url:            'http://elipapa.github.io'
 
-# paginate:         3
-# paginate_path:    "blog/:num"
+paginate:         8
+paginate_path:    "blog/:num"
 
 # Custom vars
 repo:             "http://github.com/elipapa/elipapa.github.io"
@@ -24,3 +24,4 @@ repo:             "http://github.com/elipapa/elipapa.github.io"
 # let github generate a sitemap.xml for you
 gems:
   - jekyll-sitemap
+  - jekyll-paginate

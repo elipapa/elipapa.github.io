@@ -5,11 +5,14 @@ title: Home
 
 I am Eli, a biomedical engineer, computational biologist and doctor.
 
-My latest research relates to the [interface between the human immune system and the microbiome][almlab]. You can find a list of my publications on [Google scholar][].
+I use machine learning and software engineering to help find new drugs,
+taking advantage of [human genetics](http://www.targetvalidation.org)  and [human microbiome](http://www.nextbiome.com) data.
 
-I graduated from the [University of Toronto][] with a bachelor in [Engineering Science][]. I continued my path in biomedical engineering with a S.M. in mechanical engineering at [MIT][] and a Ph.D from the [Harvard/MIT Health Science & Technology Institute][].
+Here you can find some of the projects I worked on or read some of my sparse and random thoughts on my [blog]({{site.url}}/blog)
 
-I have trained as a physician at [Imperial College London medical school][] and I currently live and work as a doctor in London,UK.
+
+<!-- I graduated from the [University of Toronto][] with a bachelor in [Engineering Science][]. I continued my path in biomedical engineering with a S.M. in mechanical engineering at [MIT][] and a Ph.D from the [Harvard/MIT Health Science & Technology Institute][] working on the [interface between the human immune system and the microbiome][almlab].
+You can find a list of my research publications on [Google scholar][]. I have trained as a physician at [Imperial College London medical school][]. -->
 
 ***
 
@@ -20,7 +23,7 @@ I have trained as a physician at [Imperial College London medical school][] and 
 - [**you are what you eat**](https://elipapa.github.io/youarewhatyoueat/) - an interactive visualizations of food diary data using D3/crossfilter/dc.js
 - [**karmen**](https://github.com/elipapa/karmen) - a quick and dirty command line browser for the [LanguaL thesaurus](http://www.langual.org/langual_Thesaurus.asp)
 
-<!-- 
+<!--
 ***
 
 <div class="twitter-timeline-widget" align="center">
