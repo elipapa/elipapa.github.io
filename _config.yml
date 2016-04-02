@@ -20,3 +20,7 @@ author:
 
 # Custom vars
 repo:             "http://github.com/elipapa/elipapa.github.io"
+
+# let github generate a sitemap.xml for you
+gems:
+  - jekyll-sitemap
