@@ -7,6 +7,7 @@ versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 gem 'github-pages', versions['github-pages']
 gem 'rb-gsl'
 gem 'narray'
+gem 'jekyll-paginate'
 
 group :jekyll_plugins do
   gem 'jekyll-compose'

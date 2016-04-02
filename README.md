@@ -17,4 +17,11 @@ To preview locally: `jekyll serve --watch --baseurl `
 
 To preview locally, with drafts: `jekyll serve --watch --drafts --baseurl `
 
+Publish your draft using [jekyll compose](https://github.com/jekyll/jekyll-compose):
+```sh
+$ bundle exec jekyll publish _drafts/my-new-draft.md
+# or specify a specific date on which to publish it
+$ bundle exec jekyll publish _drafts/my-new-draft.md --date 2014-01-24
+```
+
 To publish: commit locally and `git push`
