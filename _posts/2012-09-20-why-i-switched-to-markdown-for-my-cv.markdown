@@ -5,7 +5,7 @@ date: 2012-09-20 15:46
 comments: true
 ---
 
-I have previously used [LaTeX](http://www.latex-project.org/) to typeset my _curriculum vitae_, as it invariably produces a beautiful looking document. I have now become frustrated at how long it takes me to relearn LaTeX from scratch every time I want to change something. Plus my `.tex` source file was becoming completely unreadable. In an attempt to clear up the mess, I decided to put all the content in a markdown file and use CSS to style it. The result is [markdown-cv]({{ site.baseurl }}/markdown-cv/), which can be forked and used as a template by anyone who wants to do the same thing.
+I have previously used [LaTeX](http://www.latex-project.org/) to typeset my _curriculum vitae_, as it invariably produces a beautiful looking document. I have now become frustrated at how long it takes me to relearn LaTeX from scratch every time I want to change something. Plus my `.tex` source file was becoming completely unreadable. In an attempt to clear up the mess, I decided to put all the content in a markdown file and use CSS to style it. The result is [markdown-cv]({{ site.url }}/markdown-cv/), which can be forked and used as a template by anyone who wants to do the same thing.
 
 I have kept my _curriculum vitae_ in [LaTeX](http://www.latex-project.org/) for a long time. My workflow included a plain text [editor](http://www.gnu.org/software/emacs/) and a [Mac installation of LaTeX](http://www.tug.org/mactex/). LaTeX's elegant typography meant my CV would always look a tad better than its corresponding version in word, and I stuck to it. I also enjoyed having to deal only with plain text files, saving me from the converting files from one word processor to the other. Not to mention that having a single file to update, rather than a series of word processor files scattered everywhere, kept me more disciplined about updating it regularly.
 
@@ -18,10 +18,10 @@ So I proceded to transfer my CV in Markdown format, created a simple HTML templa
 
 To obtain a [pdf][pdffile] version of the cv, I am using the great [wkhtmltopdf](http://code.google.com/p/wkhtmltopdf/), which I call by means of a [rake](http://rake.rubyforge.org/) task: `rake pdf`.
 
-You can see the various pieces of the workflow arranged on [GitHub][gh] (Hosting on GitHub there also means I can maintain different versions of the same file, eg. one resume for tech jobs and another for academic purposes). I am quite happy with the [final result]({{ site.baseurl }}/downloads/cv.pdf).
+You can see the various pieces of the workflow arranged on [GitHub][gh] (Hosting on GitHub there also means I can maintain different versions of the same file, eg. one resume for tech jobs and another for academic purposes). I am quite happy with the [final result]({{ site.url }}/downloads/cv.pdf).
 
 I can't say that this workflow was completely succesful in doing away with the tinkering, but at the very least the main content of my curriculum vitae is now available in plain readable text. I can easily edit it without having to remember any LaTeX commands. That and I needed the CSS practice...
 
 
-[pdffile]: {{ site.baseurl }}/downloads/cv.pdf
+[pdffile]: {{ site.url }}/downloads/cv.pdf
 [gh]: https://github.com/elipapa/markdown-cv
