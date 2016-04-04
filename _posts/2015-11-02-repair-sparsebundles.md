@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "What to do if your sparsebundle image gets corrupted"
-date: 2015-03-11 13:01
-comments: true
+title: "how i fixed my corrupted sparsebundle image"
+date: 2015-11-02 13:01
 categories: stackoverflow
 ---
-2/11/2015
 
 
 I save all my paper scans and important documents in an encrypted sparsebundle. In lieu of proper backup, I place the file in my dropbox. However, when I got too defiant and tried to use the same image from more than one computers connected to dropbox, the image was corrupted and could not be mounted anymore. Panic.
