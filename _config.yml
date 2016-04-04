@@ -1,6 +1,4 @@
-# Dependencies
-markdown:         kramdown
-# highlighter:      rouge
+
 
 # Permalinks
 permalink:        /blog/:categories/:title.html

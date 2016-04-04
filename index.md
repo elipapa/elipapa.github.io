@@ -16,7 +16,7 @@ You can find a list of my research publications on [Google scholar][]. I have tr
 
 ***
 
-##Software
+## Software
 
 - [**SLiMEBook**](http://nbviewer.ipython.org/github/elipapa/SLiMEbook/blob/master/SLiMEbook.ipynb) - the original analysis of my [IBD paper](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0039242), involving machine learning applied to 16S microbiome data, ported to an Ipython notebook
 - [**markdown-cv** ](https://elipapa.github.io/markdown-cv/)- build a beautiful cv in plain text using HTML/Markdown/CSS
