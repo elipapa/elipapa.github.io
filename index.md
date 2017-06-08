@@ -3,12 +3,14 @@ layout: default
 title: Home
 ---
 
-I am Eli, a biomedical engineer, computational biologist and doctor.
+I am Eliseo, a biomedical engineer, computational biologist and doctor.
 
 I use machine learning and software engineering to help find new drugs,
-taking advantage of [human genetics](http://www.targetvalidation.org)  and [human microbiome](http://www.nextbiome.com) data.
+taking advantage of [human genetics](https://www.opentargets.org) and other biological data.
 
-Here you can find some of the projects I worked on or read some of my sparse and random thoughts on my [blog]({{site.url}}/blog)
+## Projects
+
+- [Open Targets Platform](https://www.targetvalidation.org)
 
 
 <!-- I graduated from the [University of Toronto][] with a bachelor in [Engineering Science][]. I continued my path in biomedical engineering with a S.M. in mechanical engineering at [MIT][] and a Ph.D from the [Harvard/MIT Health Science & Technology Institute][] working on the [interface between the human immune system and the microbiome][almlab].
@@ -55,4 +57,4 @@ You can also find me at [about.me][] and [LinkedIn][] -->
 [twitter]: http://www.twitter.com/elipapa
 [LinkedIn]: http://uk.linkedin.com/in/eliseopapa
 [MIT]: http://web.mit.edu
-[Kippt]: https://kippt.com/elipapa
+
