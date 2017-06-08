@@ -12,7 +12,7 @@ taking advantage of [human genetics](https://www.opentargets.org) and other biol
 
 ## Projects
 
-- [Open Targets Platform](https://www.targetvalidation.org)
+- [**Open Targets Platform**](https://www.targetvalidation.org)
 
 
 <!-- I graduated from the [University of Toronto][] with a bachelor in [Engineering Science][]. I continued my path in biomedical engineering with a S.M. in mechanical engineering at [MIT][] and a Ph.D from the [Harvard/MIT Health Science & Technology Institute][] working on the [interface between the human immune system and the microbiome][almlab].
