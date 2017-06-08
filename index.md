@@ -8,6 +8,8 @@ I am Eliseo, a biomedical engineer, computational biologist and doctor.
 I use machine learning and software engineering to help find new drugs,
 taking advantage of [human genetics](https://www.opentargets.org) and other biological data.
 
+*** 
+
 ## Projects
 
 - [Open Targets Platform](https://www.targetvalidation.org)
@@ -16,7 +18,6 @@ taking advantage of [human genetics](https://www.opentargets.org) and other biol
 <!-- I graduated from the [University of Toronto][] with a bachelor in [Engineering Science][]. I continued my path in biomedical engineering with a S.M. in mechanical engineering at [MIT][] and a Ph.D from the [Harvard/MIT Health Science & Technology Institute][] working on the [interface between the human immune system and the microbiome][almlab].
 You can find a list of my research publications on [Google scholar][]. I have trained as a physician at [Imperial College London medical school][]. -->
 
-***
 
 ## Software
 
