@@ -1,25 +1,129 @@
+# main text of home
+name: Eliseo Papa
+bio: Biomedical engineer, computational biologist, doctor
 
+# twitter summary info
+description: A blog about technology and stuff related
 
-# Permalinks
-permalink:        /blog/:categories/:title.html
+# if it's an external image, update below for true
+# better with square images
+external-image: false
+picture: assets/images/profile.jpg
 
-# Setup
-title:            Eliseo Papa
-tagline:          'Thoughts, ideas and projects. Here so they can be safely ignored.'
-description:      'Biomedical engineer, computational biologist, doctor'
-production_url:   'http://elipapa.github.io'
+# If you want to include your resume, set to true
+# and specify source (external or local).
+resume: true
+resume-external: true
+resume-url: https://elipapa.github.io/mycv
 
-author:
-  name:           'Eliseo Papa'
-  url:            'http://elipapa.github.io'
+url: https://elipapa.github.io
+# your url: http://USERNAME.github.io
 
-paginate:         8
-paginate_path:    "blog/:num"
+permalink: /:title/
 
-# Custom vars
-repo:             "http://github.com/elipapa/elipapa.github.io"
+# To enable google analytics, supply your token below
+analytics-google: 'UA-100695591-1'
 
-# let github generate a sitemap.xml for you
+# To enable piwik tracking, supply your url & site ID below
+# analytics-piwik-url: 'piwik.my-host.com'
+# analytics-piwik-id: 1
+
+# if you don't want comments in your posts, leave categories empty
+disqus:
+  shortname: mydisqus # enter this from your disqus account
+  categories: #[blog, project] # only show disqus for posts that have these categories
+
+# if you don't have any of social below, comment the line
+# facebook: myfacebook
+twitter: elipapa
+# google: mygoogle
+# instagram: myinstagram
+# pinterest: mypinterest
+# linkedin: mylinkedin
+# youtube: myyoutube
+# spotify: myspotify
+github: elipapa
+# lastfm: mylastfm
+# stackoverflow: 7044681/mystackoverflow
+# quora: userquora
+# reddit: username
+medium: elipapa
+# vimeo: myvimeo
+# email: myemail@gmail.com
+
+authors:
+    elipapa:
+        name: Eliseo Papa
+        bio: Biomedical engineer, computational biologist, doctor
+        external-image: false
+        picture: assets/elipapa-calder-logo-circ-invert.png
+        twitter: elipapa
+
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: normal
+
+# if you don't need pagination, comment the *paginate* configs below
+# paginate: 5
+# paginate_path: "blog/:num/"
+
+# if you don't need projects, comment the *projects* configs below
+projects: true
+
+# if you don't need "about" or "blog", comment them out below
+about: true
+blog: true
+
+# do you want to show the "read time" of the posts?
+read-time: true
+
+# do you want to show the "tags" inside the posts?
+show-tags: true
+
+# related posts inside a post?
+related: true
+
+# Display links for next and previous posts for the specified categories
+post-advance-links: [blog]
+
+# show author block at the end of a post ?
+show-author: true
+
+# do you want some animations?
+animation: true
+
 gems:
-  - jekyll-sitemap
-  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+jekyll-mentions:
+    base_url: https://github.com
+
+
+
+# # Permalinks
+# permalink:        /blog/:categories/:title.html
+
+# # Setup
+# title:            Eliseo Papa
+# tagline:          'Thoughts, ideas and projects. Here so they can be safely ignored.'
+# description:      'Biomedical engineer, computational biologist, doctor'
+# production_url:   'http://elipapa.github.io'
+
+# author:
+#   name:           'Eliseo Papa'
+#   url:            'http://elipapa.github.io'
+
+# paginate:         8
+# paginate_path:    "blog/:num"
+
+# # Custom vars
+# repo:             "http://github.com/elipapa/elipapa.github.io"
+
+# # let github generate a sitemap.xml for you
+# gems:
+#   - jekyll-sitemap
+#   - jekyll-paginate
