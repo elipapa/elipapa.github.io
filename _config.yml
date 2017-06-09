@@ -41,9 +41,9 @@ twitter: elipapa
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: https://www.linkedin.com/in/eliseopapa/?ppe=1
 # youtube: myyoutube
-# spotify: myspotify
+spotify: vivissima
 github: elipapa
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
@@ -60,6 +60,11 @@ authors:
         external-image: false
         picture: assets/images/elipapa-calder-logo-circ-invert.png
         twitter: elipapa
+
+collections:
+  work:
+    output: true
+    permalink: /:collection/:name
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
