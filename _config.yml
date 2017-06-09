@@ -8,7 +8,7 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/elipapa-calder-logo-circ-invert.png
+picture: assets/images/elipapa-calder-logo-circ-invert.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -58,7 +58,7 @@ authors:
         name: Eliseo Papa
         bio: Biomedical engineer, computational biologist, doctor
         external-image: false
-        picture: assets/elipapa-calder-logo-circ-invert.png
+        picture: assets/images/elipapa-calder-logo-circ-invert.png
         twitter: elipapa
 
 # do you want a larger site? change the option below
@@ -75,7 +75,7 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+# blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
