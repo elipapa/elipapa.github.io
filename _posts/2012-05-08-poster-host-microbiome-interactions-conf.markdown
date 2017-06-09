@@ -3,12 +3,13 @@ layout: post
 title: "Poster for the host-microbiome interactions conference at the Sanger Institute"
 date: 2012-05-08 22:33
 comments: true
-
-tag: poster
-image: {{ site.url }}/assets/ibdML-poster.png 
+tag: 
+- poster
+- phd
+image: "{{ site.url }}/assets/ibdML-poster.png"
 headerImage: true
-projects: true
-category: poster
+projects: false
+category: blog
 author: elipapa
 externalLink: false
 ---

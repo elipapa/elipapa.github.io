@@ -8,7 +8,7 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/elipapa-calder-logo-circ-invert.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -19,7 +19,9 @@ resume-url: https://elipapa.github.io/mycv
 url: https://elipapa.github.io
 # your url: http://USERNAME.github.io
 
-permalink: /:title/
+# permalink: /:title/
+permalink: /blog/:title.html
+
 
 # To enable google analytics, supply your token below
 analytics-google: 'UA-100695591-1'
@@ -105,7 +107,6 @@ jekyll-mentions:
 
 
 # # Permalinks
-# permalink:        /blog/:categories/:title.html
 
 # # Setup
 # title:            Eliseo Papa
