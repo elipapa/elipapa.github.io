@@ -4,9 +4,9 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-I am Eliseo, a biomedical engineer, computational biologist and doctor.
+Trained as a biomedical engineer, computational biologist and doctor.
 
-I am a data scientist at [Open Targets][], where I use machine learning and software engineering to help find new drugs, taking advantage of human genetics and other biological data.
+Working as a data scientist at [Open Targets][], where we use machine learning and software engineering to help find new drugs, taking advantage of human genetics and other biological data.
 
 
 <!--## Education 
