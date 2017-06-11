@@ -3,12 +3,13 @@ name: Eliseo Papa
 bio: Biomedical engineer, computational biologist, doctor
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Eliseo Papa's thoughts, ideas and projects. Here so they can be safely ignored.
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
 picture: assets/images/elipapa-calder-logo-circ-invert.png
+logo: assets/images/elipapa-calder-logo-circ-invert.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
