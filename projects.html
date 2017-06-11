@@ -1,0 +1,19 @@
+---
+layout: page
+title: Projects
+---
+<section class="list">
+    {% assign projects = site.work | sort: 'order'  %}
+    <!--keep on the top the one i gave an order variable to, otherwise who cares.-->
+    {% for proj in projects %}
+            <div class="item {% if proj.star %}star{% endif %}">
+                <a class="url" href="{% if proj.externalLink %}{{ proj.externalLink }}{% else %}{{ site.url }}{{ proj.url }}{% endif %}">
+                    <h3 class="title">{{ proj.title }}</h3>
+                </a>
+                <blockquote>{{ proj.content }}</blockquote>
+            </div>
+
+
+
+    {% endfor %}
+</section>

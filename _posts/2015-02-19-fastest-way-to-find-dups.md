@@ -3,6 +3,7 @@ layout: post
 title: "What is the fastest way to find duplicate pictures?"
 date: 2015-02-19
 comments: true
+category: blog
 ---
 I needed to clean up duplicates photos from my personal library. And because I could not choose which duplicate finder to try, I have decided to test them all. Amongst the free tools that were correct in identifying all duplicates in my test, [dupd](https://github.com/jvirkki/dupd) was the fastest. Other [python](https://www.python.org/) and [perl](http://www.perl.org/) based solution did also very well, often better than their C/C++ colleagues.
 

@@ -1,8 +1,14 @@
 ---
 layout: post
-title: "how i fixed my corrupted sparsebundle image"
+title: "How i fixed my corrupted sparsebundle image"
 date: 2015-11-02 13:01
-categories: stackoverflow
+tag: 
+- tech
+- geeky
+- stackoverflow
+projects: false
+category: blog
+author: elipapa
 ---
 
 
