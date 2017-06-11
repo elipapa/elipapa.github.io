@@ -3,14 +3,17 @@ layout: page
 title: Projects
 ---
 <section class="list">
-    {% for post in site.posts %}
-        {% if post.projects %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                    <h3 class="title">{{ post.title }}</h3>
+    {% assign projects = site.work | sort: 'order'  %}
+    <!--keep on the top the one i gave an order variable to, otherwise who cares.-->
+    {% for proj in projects %}
+            <div class="item {% if proj.star %}star{% endif %}">
+                <a class="url" href="{% if proj.externalLink %}{{ proj.externalLink }}{% else %}{{ site.url }}{{ proj.url }}{% endif %}">
+                    <h3 class="title">{{ proj.title }}</h3>
                 </a>
+                <blockquote>{{ proj.content }}</blockquote>
             </div>
-        {% endif %}
+
+
+
     {% endfor %}
 </section>
