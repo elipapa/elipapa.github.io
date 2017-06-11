@@ -3,6 +3,13 @@ layout: post
 title: "Ph.D Defense talk"
 date: 2012-05-16 15:47
 comments: false
+tag: 
+- phd
+headerImage: false
+projects: false
+category: blog
+author: elipapa
+externalLink: false
 ---
 
 I've seen many share slides on [slideshare](http://www.slideshare.net) before, but I was impressed with the ease and the clean interface of [Speaker Deck](https://speakerdeck.com/). To test it out, I have uploaded my [Ph.D defense talk](https://speakerdeck.com/elipapa/phd-defense-talk-1). 

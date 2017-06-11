@@ -3,6 +3,13 @@ layout: post
 title: "Why I switched to markdown for my CV"
 date: 2012-09-20 15:46
 comments: true
+tag: 
+- project
+- css
+- jekyll
+projects: false
+category: blog
+author: elipapa
 ---
 
 I have previously used [LaTeX](http://www.latex-project.org/) to typeset my _curriculum vitae_, as it invariably produces a beautiful looking document. I have now become frustrated at how long it takes me to relearn LaTeX from scratch every time I want to change something. Plus my `.tex` source file was becoming completely unreadable. In an attempt to clear up the mess, I decided to put all the content in a markdown file and use CSS to style it. The result is [markdown-cv]({{ site.url }}/markdown-cv/), which can be forked and used as a template by anyone who wants to do the same thing.
