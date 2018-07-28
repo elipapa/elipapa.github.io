@@ -1,11 +1,7 @@
 ---
-title: microengraving
+title: Microengraving
 externalLink: http://www.pnas.org/content/105/46/17902
-order: 2
+order: 6
 ---
 
-This is a post where I am linking a deck of slides explaining microengraving. Perhaps I'll include the figures here directly.
-
-Talk about profiling immune system
-
-Visualization of data analysis. (transparent background. make it look good and data intensive)
+A [PNAS paper](http://www.pnas.org/content/105/46/17902) on using microfabricated chips to profile the immune system antibody response.
