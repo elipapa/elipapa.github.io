@@ -5,5 +5,3 @@ date: 2015-06-02 15:45
 comments: true
 ---
 
-stephen seigmeister
-

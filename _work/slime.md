@@ -1,10 +1,7 @@
 ---
-layout: post
-title: "Machine learning applied to the microbiome helps diagnosing children"
-date: 2012-09-19 12:47
-comments: true
-published: false
-categories: [research, papers]
+title:  "Machine learning applied to the microbiome helps diagnosing children"
+externalLink: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0039242
+order: 4
 ---
 
 Earlier this summer my latest [paper][] finally came out on [PLoS ONE]. It has been an absurdly frustrating peer review process, with [editors](gastro)
@@ -12,9 +9,10 @@ Earlier this summer my latest [paper][] finally came out on [PLoS ONE]. It has b
 But the paper is quite exciting.. .
 
 
-Machine learning stress! 
+Machine learning stress!
 
 
+Non-Invasive Mapping of the Gastrointestinal Microbiota Identifies Children with Inflammatory Bowel Disease
 
 
 [HuGE]: http://classic.the-scientist.com/?articles.view/articleNo/27488/
