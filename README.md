@@ -1,5 +1,4 @@
-elipapa.github.io
-=================
+# elipapa.github.io
 
 my personal website, not that i really needed one.
 
@@ -13,11 +12,12 @@ To update (as explained in the [github docs](https://help.github.com/articles/us
 
 To add a draft post: just drop a markdown file in `_drafts`
 
-To preview locally: `jekyll serve --watch --baseurl `
+To preview locally: `bundle exec jekyll serve`
 
-To preview locally, with drafts: `jekyll serve --watch --drafts --baseurl `
+To preview locally, with drafts: `jekyll serve --watch --drafts --baseurl`
 
 Publish your draft using [jekyll compose](https://github.com/jekyll/jekyll-compose):
+
 ```sh
 $ bundle exec jekyll publish _drafts/my-new-draft.md
 # or specify a specific date on which to publish it
